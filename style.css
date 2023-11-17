@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.image-container, .text-content {
+    width: 100%;
+}
+
+.image-container{
+    display: flex;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    border-radius: 8px 8px 0 0;
+}
+
+.text-content{
+    padding: 0 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 0 8px 8px;
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding: 20px 0 10px 0;
+}
+
+.heading {
+    font-family: 'Fraunces';
+    line-height: 1.8rem;
+    color: hsl(212, 21%, 14%);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.para {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0;
+    line-height: 1.5rem;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.green {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    margin-right: 20px;
+    color: hsl(158, 36%, 37%);
+}
+
+.strike {
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.btn-container {
+    width: 100%;
+    padding: 10px 0 20px 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: hsl(158, 33%, 29%);
+}
+
+svg {
+    margin-right: 8px;
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 1024px){
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    .card {
+        display: flex;
+        max-width: 70%;
+        margin: auto;
+    }
+
+    img {
+        content: url(/images/image-product-desktop.jpg);
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px 0 0 8px;
+    }
+
+    .text-content{
+        border-radius: 0 8px 8px 0;
+        padding: 25px 25px 0 25px;
+    }
+
+    .perfume{
+        letter-spacing: 6px;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        padding: 15px 0;
+    }
+
+    .para {
+        padding: 15px 0 15px 0;
+        font-size: 18px;
+    }
+
+    .green {
+       font-size: 2.5rem;
+    }
+
+    .numbers{
+        padding: 20px 0;
+    }
+
+    .btn-container {
+        padding: 20px 0 20px 0;
+    }
+
+    .btn {
+        padding: 20px 0;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+       display: flex;
+       width: 70%;
+    }
+
+    img {
+        content: url(/images/image-product-desktop.jpg);
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px 0 0 8px;
+    }
+
+    .text-content{
+        border-radius: 0 8px 8px 0;
+        padding: 25px 25px 0 25px;
+    }
+
+    .perfume{
+        letter-spacing: 6px;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding: 15px 0;
+    }
+
+    .para {
+        padding: 15px 0 15px 0;
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+
+    .green {
+       font-size: 2.5rem;
+    }
+
+    .numbers{
+        padding: 20px 0;
+    }
+
+    .btn-container {
+        padding: 20px 0 20px 0;
+    }
+
+    .btn {
+        padding: 20px 0;
+    }
+
+}
