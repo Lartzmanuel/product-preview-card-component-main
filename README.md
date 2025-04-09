@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://product-preview-card-component-main-teal-five.vercel.app/)
+- Solution URL: [Github](https://github.com/Lartzmanuel/product-preview-card-component-main)
+- Live Site URL: [https://product-preview-card-component-main-teal-five.vercel.app/](https://product-preview-card-component-main-teal-five.vercel.app/)
 
 ## My process
 
